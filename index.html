@@ -440,11 +440,7 @@ $("send").onclick = () => writeManager(S.cart.map(byUser));
 $("manager").onclick = () => writeManager([]);
 if (inTg) tg.BackButton.onClick(closeCart);
 
-// config.json — каналы, цены, тексты (правятся с рабочего компьютера); data.json — статистика (выкладывает сервер)
-const load = f => fetch(f + "?" + Date.now()).then(r => r.json());
-Promise.all([load("config.json"), load("data.json")]).then(([cfg, stats]) => {
-  const d = { ...cfg, updated: stats.updated, categories: cfg.categories.map(cat => ({ ...cat, channels: cat.channels.map(ch =>
-    ({ username: ch.username, title: "@" + ch.username, about: "", ...(stats.channels[ch.username] || {}), price: ch.price })) })) };
+fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
   S.data = d;
   const items = all();
   $("network").textContent = d.network; $("slogan").textContent = d.slogan;

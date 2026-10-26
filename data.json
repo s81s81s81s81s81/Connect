@@ -1,279 +1,325 @@
 {
  "updated": "2026-10-26T13:34:42.475433+00:00",
- "channels": {
-  "btochka": {
-   "username": "btochka",
-   "usernames": [
-    "btochka",
-    "bi_tochka"
-   ],
-   "title": "Бизнес — и Точка",
-   "about": "Уютный медиапортал в бизнес и точка.\n\nПо рекламе: @annlebede\n\nКанал зарегестрирован в РКН: https://rkn.link/De0",
-   "subscribers": 85166,
-   "reach_24h": 17889,
-   "views_30d": 28086,
-   "avatar": "avatars/btochka.jpg"
+ "network": "Коннект медиа",
+ "slogan": "Соединим Вас с каналами в Telegram",
+ "contact": "annlebede",
+ "contact_name": "Анна",
+ "discount_from": 3,
+ "discount_percent": 10,
+ "categories": [
+  {
+   "id": "biz",
+   "title": "Бизнес",
+   "channels": [
+    {
+     "username": "btochka",
+     "usernames": [
+      "btochka",
+      "bi_tochka"
+     ],
+     "title": "Бизнес — и Точка",
+     "about": "Уютный медиапортал в бизнес и точка.\n\nПо рекламе: @annlebede\n\nКанал зарегестрирован в РКН: https://rkn.link/De0",
+     "subscribers": 85166,
+     "reach_24h": 17889,
+     "views_30d": 28086,
+     "avatar": "avatars/btochka.jpg",
+     "price": null
+    },
+    {
+     "username": "soyuztg",
+     "usernames": [
+      "soyuztg"
+     ],
+     "title": "Союз Предпринимателей — бизнес в России",
+     "about": "Объединяемся с общей целью – зарабатывать.\n\nРеклама в союзе: @annlebede\n\nКанал находится в реестре РКН: https://rkn.link/KbL",
+     "subscribers": 75561,
+     "reach_24h": 16572,
+     "views_30d": 24692,
+     "avatar": "avatars/soyuztg.jpg",
+     "price": null
+    },
+    {
+     "username": "bikontora",
+     "usernames": [
+      "bikontora",
+      "bizneskontora"
+     ],
+     "title": "Бизнес Контора — канал про бизнес",
+     "about": "О бизнесе простым языком: тексты с размышлениями, советы, маркетинг. Будь с Конторой\n\nПо вопросам рекламы: @annlebede",
+     "subscribers": 75874,
+     "reach_24h": 17500,
+     "views_30d": 25375,
+     "avatar": "avatars/bikontora.jpg",
+     "price": null
+    },
+    {
+     "username": "bizsach",
+     "usernames": [
+      "bizsach",
+      "ch_biznes"
+     ],
+     "title": "Бизнесач — канал про ваш бизнес",
+     "about": "Креативное медиа о мире Российского бизнеса\n\nПо рекламным вопросам: @annlebede\n\nНаходимся в рестре РКН: https://rkn.link/Mxo",
+     "subscribers": 64004,
+     "reach_24h": 14014,
+     "views_30d": 21582,
+     "avatar": "avatars/bizsach.jpg",
+     "price": null
+    },
+    {
+     "username": "bznachit",
+     "usernames": [
+      "bznachit"
+     ],
+     "title": "Б — значит бизнес",
+     "about": "Канал про то, как создавать классный бизнес в России\n\nПо рекламе: @annlebede\n\nЗарегестрирован в реестре РКН: https://gosuslugi.ru/snet/67ae93b53c3e6d7843b4e7b5",
+     "subscribers": 72485,
+     "reach_24h": 15472,
+     "views_30d": 24446,
+     "avatar": "avatars/bznachit.jpg",
+     "price": null
+    },
+    {
+     "username": "bizmoy",
+     "usernames": [
+      "bizmoy",
+      "ihavebusiness"
+     ],
+     "title": "мойбизнес",
+     "about": "мой бизнес — мои правила. читай и узнавай новое о бизнесе и ритейле\n\nРазмещение вашей рекламы: @annlebede",
+     "subscribers": 67783,
+     "reach_24h": 15535,
+     "views_30d": 22681,
+     "avatar": "avatars/bizmoy.jpg",
+     "price": null
+    },
+    {
+     "username": "bsn_hub",
+     "usernames": [
+      "bsn_hub"
+     ],
+     "title": "БизнесХаб — бизнес и тренды",
+     "about": "Помогаем создать классный бизнес в России, будь в нашем БизнесХабе\n\nДля рекламных предложений: @annlebede",
+     "subscribers": 65363,
+     "reach_24h": 13920,
+     "views_30d": 21298,
+     "avatar": "avatars/bsn_hub.jpg",
+     "price": null
+    },
+    {
+     "username": "commersru",
+     "usernames": [
+      "commersru",
+      "russianbusinesscommunity"
+     ],
+     "title": "Русский Бизнес — полезный канал о бизнесе",
+     "about": "Рашэн комьюнити настоящих бизнесменов\n\nПо вопросам сотрудничества: @annlebede\n\nКанал в списке РКН: https://rkn.link/H82",
+     "subscribers": 66811,
+     "reach_24h": 14221,
+     "views_30d": 22185,
+     "avatar": "avatars/commersru.jpg",
+     "price": null
+    },
+    {
+     "username": "bi_trends",
+     "usernames": [
+      "bi_trends"
+     ],
+     "title": "Bt — бизнес и тренды",
+     "about": "С нами уже сегодня понимаешь, что будет работать завтра.\nПишем о бизнесе и не только.\n\nПо размещению и другим коммерческим вопросам: @annlebede\n\nРесурс находится в реестре РКН: https://rkn.link/nPa",
+     "subscribers": 68940,
+     "reach_24h": 8162,
+     "views_30d": 12814,
+     "avatar": "avatars/bi_trends.jpg",
+     "price": null
+    },
+    {
+     "username": "popsbsn",
+     "usernames": [
+      "popsbsn"
+     ],
+     "title": "Попсовый бизнес — рассказываем про бизнес",
+     "about": "Простыми словами о сложных темах #бизнестексты\n\nПо размещению релкамы: @annlebede\n\nКанал находится в реестре: https://rkn.link/itE",
+     "subscribers": 48832,
+     "reach_24h": 15358,
+     "views_30d": 23037,
+     "avatar": "avatars/popsbsn.jpg",
+     "price": null
+    },
+    {
+     "username": "tzh_business",
+     "usernames": [
+      "tzh_business"
+     ],
+     "title": "ТЫЖЕБИЗНЕСМЕН — рассказываем про бизнес",
+     "about": "Приятно слышать, когда говорят: «тыжебизнесмен». Лонгриды о бизнесе.\n\nПо вопросам рекламы: @annlebede\n\nКанал занесен в реестре РКН: https://rkn.link/BOY",
+     "subscribers": 58120,
+     "reach_24h": 13949,
+     "views_30d": 20924,
+     "avatar": "avatars/tzh_business.jpg",
+     "price": null
+    },
+    {
+     "username": "ipcommerce",
+     "usernames": [
+      "ipcommerce"
+     ],
+     "title": "ИП и Я — бизнес и тренды",
+     "about": "Вот и остались наедине ИП и Я. Полезные посты про бизнес.\n\nРеклама: @annlebede\n\nВключены в список Роскомнадзора: https://rkn.link/raH",
+     "subscribers": 60456,
+     "reach_24h": 13996,
+     "views_30d": 22114,
+     "avatar": "avatars/ipcommerce.jpg",
+     "price": null
+    },
+    {
+     "username": "tgb_ru",
+     "usernames": [
+      "tgb_ru",
+      "tg_on_business"
+     ],
+     "title": "телеграм на бизнесовом",
+     "about": "Главный канал про бизнес в России на понятном.\n\nПо рекламе: @annlebede\n\nКанал включен в реестр Роскомнадзора: https://rkn.link/90w",
+     "subscribers": 69582,
+     "reach_24h": 14173,
+     "views_30d": 20976,
+     "avatar": "avatars/tgb_ru.jpg",
+     "price": null
+    },
+    {
+     "username": "clubusiness",
+     "usernames": [
+      "clubusiness"
+     ],
+     "title": "Клуб любителей бизнеса — инфоканал про бизнес",
+     "about": "Добро пожаловать в клуб, любитель бизнеса\n\nИнтеграции с хрустом рубля — @annlebede\n\nКанал включен в перечень РКН: https://rkn.link/9dk",
+     "subscribers": 70208,
+     "reach_24h": 14169,
+     "views_30d": 21112,
+     "avatar": "avatars/clubusiness.jpg",
+     "price": null
+    }
+   ]
   },
-  "soyuztg": {
-   "username": "soyuztg",
-   "usernames": [
-    "soyuztg"
-   ],
-   "title": "Союз Предпринимателей — бизнес в России",
-   "about": "Объединяемся с общей целью – зарабатывать.\n\nРеклама в союзе: @annlebede\n\nКанал находится в реестре РКН: https://rkn.link/KbL",
-   "subscribers": 75561,
-   "reach_24h": 16572,
-   "views_30d": 24692,
-   "avatar": "avatars/soyuztg.jpg"
+  {
+   "id": "mgmt",
+   "title": "Управление бизнесом",
+   "channels": [
+    {
+     "username": "pishet_n",
+     "usernames": [
+      "pishet_n",
+      "nachalnik_pechataet"
+     ],
+     "title": "Начальник печатает...",
+     "about": "Канал о бизнесе и ритейле.\nНачальник канала — Нахимов Игорь, ex HR BIF.\n\nПо рекламному размещению обращаться к: @annlebede",
+     "subscribers": 68292,
+     "reach_24h": 16419,
+     "views_30d": 23972,
+     "avatar": "avatars/pishet_n.jpg",
+     "price": null
+    },
+    {
+     "username": "delovy_ru",
+     "usernames": [
+      "delovy_ru",
+      "kanaldelovoi"
+     ],
+     "title": "Деловой Канал — бизнес и не только",
+     "about": "Пишем интересные тексты о бизнесе. Вам понравится.\n\nПо вопросам рекламы: @annlebede\n\nДеловой канал находится в реестре РКН:  https://clck.ru/3GXgTx",
+     "subscribers": 68594,
+     "reach_24h": 15622,
+     "views_30d": 23277,
+     "avatar": "avatars/delovy_ru.jpg",
+     "price": null
+    },
+    {
+     "username": "bznsvy",
+     "usernames": [
+      "bznsvy",
+      "biznesoviy_ru"
+     ],
+     "title": "biznesoviy — на заметку предпринимателю",
+     "about": "Бизнес-канал здорового человека.\n\nСотрудничество: @annlebede\n\nКанал внесен в список РКН: https://gosuslugi.ru/snet/67e25becf030015ba81fe72c",
+     "subscribers": 55531,
+     "reach_24h": 15601,
+     "views_30d": 23089,
+     "avatar": "avatars/bznsvy.jpg",
+     "price": null
+    },
+    {
+     "username": "b_prost",
+     "usernames": [
+      "b_prost"
+     ],
+     "title": "Бизнес — Просто",
+     "about": "Вести Бизнес с нашим каналом — Просто\n\nСотрудничество: @annlebede",
+     "subscribers": 71517,
+     "reach_24h": 15463,
+     "views_30d": 24432,
+     "avatar": "avatars/b_prost.jpg",
+     "price": null
+    },
+    {
+     "username": "bi_daily",
+     "usernames": [
+      "bi_daily",
+      "biznes_daily"
+     ],
+     "title": "Бизнес Daily",
+     "about": "Тот самый канал, где выходят Daily посты о бизнесе и ритейле\n\nПо вопросам рекламы: @annlebede",
+     "subscribers": 64880,
+     "reach_24h": 14108,
+     "views_30d": 22150,
+     "avatar": "avatars/bi_daily.jpg",
+     "price": null
+    }
+   ]
   },
-  "bikontora": {
-   "username": "bikontora",
-   "usernames": [
-    "bikontora",
-    "bizneskontora"
-   ],
-   "title": "Бизнес Контора — канал про бизнес",
-   "about": "О бизнесе простым языком: тексты с размышлениями, советы, маркетинг. Будь с Конторой\n\nПо вопросам рекламы: @annlebede",
-   "subscribers": 75874,
-   "reach_24h": 17500,
-   "views_30d": 25375,
-   "avatar": "avatars/bikontora.jpg"
-  },
-  "bizsach": {
-   "username": "bizsach",
-   "usernames": [
-    "bizsach",
-    "ch_biznes"
-   ],
-   "title": "Бизнесач — канал про ваш бизнес",
-   "about": "Креативное медиа о мире Российского бизнеса\n\nПо рекламным вопросам: @annlebede\n\nНаходимся в рестре РКН: https://rkn.link/Mxo",
-   "subscribers": 64004,
-   "reach_24h": 14014,
-   "views_30d": 21582,
-   "avatar": "avatars/bizsach.jpg"
-  },
-  "bznachit": {
-   "username": "bznachit",
-   "usernames": [
-    "bznachit"
-   ],
-   "title": "Б — значит бизнес",
-   "about": "Канал про то, как создавать классный бизнес в России\n\nПо рекламе: @annlebede\n\nЗарегестрирован в реестре РКН: https://gosuslugi.ru/snet/67ae93b53c3e6d7843b4e7b5",
-   "subscribers": 72485,
-   "reach_24h": 15472,
-   "views_30d": 24446,
-   "avatar": "avatars/bznachit.jpg"
-  },
-  "bizmoy": {
-   "username": "bizmoy",
-   "usernames": [
-    "bizmoy",
-    "ihavebusiness"
-   ],
-   "title": "мойбизнес",
-   "about": "мой бизнес — мои правила. читай и узнавай новое о бизнесе и ритейле\n\nРазмещение вашей рекламы: @annlebede",
-   "subscribers": 67783,
-   "reach_24h": 15535,
-   "views_30d": 22681,
-   "avatar": "avatars/bizmoy.jpg"
-  },
-  "bsn_hub": {
-   "username": "bsn_hub",
-   "usernames": [
-    "bsn_hub"
-   ],
-   "title": "БизнесХаб — бизнес и тренды",
-   "about": "Помогаем создать классный бизнес в России, будь в нашем БизнесХабе\n\nДля рекламных предложений: @annlebede",
-   "subscribers": 65363,
-   "reach_24h": 13920,
-   "views_30d": 21298,
-   "avatar": "avatars/bsn_hub.jpg"
-  },
-  "commersru": {
-   "username": "commersru",
-   "usernames": [
-    "commersru",
-    "russianbusinesscommunity"
-   ],
-   "title": "Русский Бизнес — полезный канал о бизнесе",
-   "about": "Рашэн комьюнити настоящих бизнесменов\n\nПо вопросам сотрудничества: @annlebede\n\nКанал в списке РКН: https://rkn.link/H82",
-   "subscribers": 66811,
-   "reach_24h": 14221,
-   "views_30d": 22185,
-   "avatar": "avatars/commersru.jpg"
-  },
-  "bi_trends": {
-   "username": "bi_trends",
-   "usernames": [
-    "bi_trends"
-   ],
-   "title": "Bt — бизнес и тренды",
-   "about": "С нами уже сегодня понимаешь, что будет работать завтра.\nПишем о бизнесе и не только.\n\nПо размещению и другим коммерческим вопросам: @annlebede\n\nРесурс находится в реестре РКН: https://rkn.link/nPa",
-   "subscribers": 68940,
-   "reach_24h": 8162,
-   "views_30d": 12814,
-   "avatar": "avatars/bi_trends.jpg"
-  },
-  "popsbsn": {
-   "username": "popsbsn",
-   "usernames": [
-    "popsbsn"
-   ],
-   "title": "Попсовый бизнес — рассказываем про бизнес",
-   "about": "Простыми словами о сложных темах #бизнестексты\n\nПо размещению релкамы: @annlebede\n\nКанал находится в реестре: https://rkn.link/itE",
-   "subscribers": 48832,
-   "reach_24h": 15358,
-   "views_30d": 23037,
-   "avatar": "avatars/popsbsn.jpg"
-  },
-  "tzh_business": {
-   "username": "tzh_business",
-   "usernames": [
-    "tzh_business"
-   ],
-   "title": "ТЫЖЕБИЗНЕСМЕН — рассказываем про бизнес",
-   "about": "Приятно слышать, когда говорят: «тыжебизнесмен». Лонгриды о бизнесе.\n\nПо вопросам рекламы: @annlebede\n\nКанал занесен в реестре РКН: https://rkn.link/BOY",
-   "subscribers": 58120,
-   "reach_24h": 13949,
-   "views_30d": 20924,
-   "avatar": "avatars/tzh_business.jpg"
-  },
-  "ipcommerce": {
-   "username": "ipcommerce",
-   "usernames": [
-    "ipcommerce"
-   ],
-   "title": "ИП и Я — бизнес и тренды",
-   "about": "Вот и остались наедине ИП и Я. Полезные посты про бизнес.\n\nРеклама: @annlebede\n\nВключены в список Роскомнадзора: https://rkn.link/raH",
-   "subscribers": 60456,
-   "reach_24h": 13996,
-   "views_30d": 22114,
-   "avatar": "avatars/ipcommerce.jpg"
-  },
-  "tgb_ru": {
-   "username": "tgb_ru",
-   "usernames": [
-    "tgb_ru",
-    "tg_on_business"
-   ],
-   "title": "телеграм на бизнесовом",
-   "about": "Главный канал про бизнес в России на понятном.\n\nПо рекламе: @annlebede\n\nКанал включен в реестр Роскомнадзора: https://rkn.link/90w",
-   "subscribers": 69582,
-   "reach_24h": 14173,
-   "views_30d": 20976,
-   "avatar": "avatars/tgb_ru.jpg"
-  },
-  "clubusiness": {
-   "username": "clubusiness",
-   "usernames": [
-    "clubusiness"
-   ],
-   "title": "Клуб любителей бизнеса — инфоканал про бизнес",
-   "about": "Добро пожаловать в клуб, любитель бизнеса\n\nИнтеграции с хрустом рубля — @annlebede\n\nКанал включен в перечень РКН: https://rkn.link/9dk",
-   "subscribers": 70208,
-   "reach_24h": 14169,
-   "views_30d": 21112,
-   "avatar": "avatars/clubusiness.jpg"
-  },
-  "pishet_n": {
-   "username": "pishet_n",
-   "usernames": [
-    "pishet_n",
-    "nachalnik_pechataet"
-   ],
-   "title": "Начальник печатает...",
-   "about": "Канал о бизнесе и ритейле.\nНачальник канала — Нахимов Игорь, ex HR BIF.\n\nПо рекламному размещению обращаться к: @annlebede",
-   "subscribers": 68292,
-   "reach_24h": 16419,
-   "views_30d": 23972,
-   "avatar": "avatars/pishet_n.jpg"
-  },
-  "delovy_ru": {
-   "username": "delovy_ru",
-   "usernames": [
-    "delovy_ru",
-    "kanaldelovoi"
-   ],
-   "title": "Деловой Канал — бизнес и не только",
-   "about": "Пишем интересные тексты о бизнесе. Вам понравится.\n\nПо вопросам рекламы: @annlebede\n\nДеловой канал находится в реестре РКН:  https://clck.ru/3GXgTx",
-   "subscribers": 68594,
-   "reach_24h": 15622,
-   "views_30d": 23277,
-   "avatar": "avatars/delovy_ru.jpg"
-  },
-  "bznsvy": {
-   "username": "bznsvy",
-   "usernames": [
-    "bznsvy",
-    "biznesoviy_ru"
-   ],
-   "title": "biznesoviy — на заметку предпринимателю",
-   "about": "Бизнес-канал здорового человека.\n\nСотрудничество: @annlebede\n\nКанал внесен в список РКН: https://gosuslugi.ru/snet/67e25becf030015ba81fe72c",
-   "subscribers": 55531,
-   "reach_24h": 15601,
-   "views_30d": 23089,
-   "avatar": "avatars/bznsvy.jpg"
-  },
-  "b_prost": {
-   "username": "b_prost",
-   "usernames": [
-    "b_prost"
-   ],
-   "title": "Бизнес — Просто",
-   "about": "Вести Бизнес с нашим каналом — Просто\n\nСотрудничество: @annlebede",
-   "subscribers": 71517,
-   "reach_24h": 15463,
-   "views_30d": 24432,
-   "avatar": "avatars/b_prost.jpg"
-  },
-  "bi_daily": {
-   "username": "bi_daily",
-   "usernames": [
-    "bi_daily",
-    "biznes_daily"
-   ],
-   "title": "Бизнес Daily",
-   "about": "Тот самый канал, где выходят Daily посты о бизнесе и ритейле\n\nПо вопросам рекламы: @annlebede",
-   "subscribers": 64880,
-   "reach_24h": 14108,
-   "views_30d": 22150,
-   "avatar": "avatars/bi_daily.jpg"
-  },
-  "finapla": {
-   "username": "finapla",
-   "usernames": [
-    "finapla"
-   ],
-   "title": "Финансы на Плаву — бизнес и тренды",
-   "about": "О бизнесе без воды, чтобы не пойти ко дну в мире финансов.\n\nДелаем рекламу: @annlebede\n\nКанал внесён в реестр РКН: https://rkn.link/aAc",
-   "subscribers": 71264,
-   "reach_24h": 14082,
-   "views_30d": 22109,
-   "avatar": "avatars/finapla.jpg"
-  },
-  "commerstype": {
-   "username": "commerstype",
-   "usernames": [
-    "commerstype"
-   ],
-   "title": "Коммерcтайп — бизнес и тренды",
-   "about": "Делимся секретами бизнеса в лонгридах.\n\nРеклама: @annlebede\n\nКанал в списке РКН: https://rkn.link/KQ5",
-   "subscribers": 68278,
-   "reach_24h": 14182,
-   "views_30d": 20989,
-   "avatar": "avatars/commerstype.jpg"
-  },
-  "gramdelo": {
-   "username": "gramdelo",
-   "usernames": [
-    "gramdelo"
-   ],
-   "title": "Делограм — про бизнес",
-   "about": "Телеграм-канал, который поможет с Вашим делом.\n  \nОтдел Рекламы: @annlebede\n\nСтраница в Роскомнадзора: https://gosuslugi.ru/snet/68645d5c26323120345b4cb9",
-   "subscribers": 56893,
-   "reach_24h": 13790,
-   "views_30d": 21788,
-   "avatar": "avatars/gramdelo.jpg"
+  {
+   "id": "econ",
+   "title": "Экономика и анализ",
+   "channels": [
+    {
+     "username": "finapla",
+     "usernames": [
+      "finapla"
+     ],
+     "title": "Финансы на Плаву — бизнес и тренды",
+     "about": "О бизнесе без воды, чтобы не пойти ко дну в мире финансов.\n\nДелаем рекламу: @annlebede\n\nКанал внесён в реестр РКН: https://rkn.link/aAc",
+     "subscribers": 71264,
+     "reach_24h": 14082,
+     "views_30d": 22109,
+     "avatar": "avatars/finapla.jpg",
+     "price": null
+    },
+    {
+     "username": "commerstype",
+     "usernames": [
+      "commerstype"
+     ],
+     "title": "Коммерcтайп — бизнес и тренды",
+     "about": "Делимся секретами бизнеса в лонгридах.\n\nРеклама: @annlebede\n\nКанал в списке РКН: https://rkn.link/KQ5",
+     "subscribers": 68278,
+     "reach_24h": 14182,
+     "views_30d": 20989,
+     "avatar": "avatars/commerstype.jpg",
+     "price": null
+    },
+    {
+     "username": "gramdelo",
+     "usernames": [
+      "gramdelo"
+     ],
+     "title": "Делограм — про бизнес",
+     "about": "Телеграм-канал, который поможет с Вашим делом.\n  \nОтдел Рекламы: @annlebede\n\nСтраница в Роскомнадзора: https://gosuslugi.ru/snet/68645d5c26323120345b4cb9",
+     "subscribers": 56893,
+     "reach_24h": 13790,
+     "views_30d": 21788,
+     "avatar": "avatars/gramdelo.jpg",
+     "price": null
+    }
+   ]
   }
- }
+ ]
 }
