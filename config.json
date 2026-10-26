@@ -1,0 +1,50 @@
+{
+  "network": "Коннект медиа",
+  "slogan": "Соединим Вас с каналами в Telegram",
+  "contact": "annlebede",
+  "contact_name": "Анна",
+  "discount_from": 3,
+  "discount_percent": 10,
+  "categories": [
+    {
+      "id": "biz",
+      "title": "Бизнес",
+      "channels": [
+        {"username": "btochka", "price": null},
+        {"username": "soyuztg", "price": null},
+        {"username": "bikontora", "price": null},
+        {"username": "bizsach", "price": null},
+        {"username": "bznachit", "price": null},
+        {"username": "bizmoy", "price": null},
+        {"username": "bsn_hub", "price": null},
+        {"username": "commersru", "price": null},
+        {"username": "bi_trends", "price": null},
+        {"username": "popsbsn", "price": null},
+        {"username": "tzh_business", "price": null},
+        {"username": "ipcommerce", "price": null},
+        {"username": "tgb_ru", "price": null},
+        {"username": "clubusiness", "price": null}
+      ]
+    },
+    {
+      "id": "mgmt",
+      "title": "Управление бизнесом",
+      "channels": [
+        {"username": "pishet_n", "price": null},
+        {"username": "delovy_ru", "price": null},
+        {"username": "bznsvy", "price": null},
+        {"username": "b_prost", "price": null},
+        {"username": "bi_daily", "price": null}
+      ]
+    },
+    {
+      "id": "econ",
+      "title": "Экономика и анализ",
+      "channels": [
+        {"username": "finapla", "price": null},
+        {"username": "commerstype", "price": null},
+        {"username": "gramdelo", "price": null}
+      ]
+    }
+  ]
+}
