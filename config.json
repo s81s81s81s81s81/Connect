@@ -10,7 +10,7 @@
       "id": "biz",
       "title": "Бизнес",
       "channels": [
-        {"username": "btochka", "price": null},
+        {"username": "btochka", "price": null, "age": 27},
         {"username": "soyuztg", "price": null},
         {"username": "bikontora", "price": null},
         {"username": "bizsach", "price": null},

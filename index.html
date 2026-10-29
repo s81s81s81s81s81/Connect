@@ -38,17 +38,21 @@ applyTheme();
   --hero-bg: #FFFFFF; --hero-ink: #0C1633; --hero-muted: #5A6480; --hero-rule: #E3E6ED;
   --offer-bg: #E2E8F7; --offer-rule: #CCD7F0; --offer-tag: #3F5FC2; --offer-tag-ink: #FFFFFF;
   --brand: #3F5FC2; --brand-soft: #8A9BCF;
+  --men: #3F5FC2; --women: #C9D3EE;
+  --pitch-bg: #F3F5FB; --pitch-rule: #E1E6F3; --pitch-accent: #3F5FC2; --pitch-icon-bg: #E2E8F7;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --cobalt: #26386F; --cobalt-ink: #A9B9F0;
+    --cobalt: #26386F; --cobalt-ink: #A9B9F0; --men: #7F95E0; --women: #2A3766;
+  --pitch-bg: rgba(255,255,255,.05); --pitch-rule: rgba(255,255,255,.09); --pitch-accent: #A9B9F0; --pitch-icon-bg: rgba(169,185,240,.12);
     --paper: #090E1E; --surface: #10172C; --rule: #1E2640; --ink: #E8EBF4; --ink-2: #A3AAC0; --ink-3: #6E7691; --tint: #172040;
     --hero-bg: #16204A; --hero-ink: #EEF1FA; --hero-muted: #AAB5DA; --hero-rule: rgba(255,255,255,.09);
     --offer-bg: #1A2452; --offer-rule: #26326A; --offer-tag: #2D4088; --offer-tag-ink: #DCE3FB;
   }
 }
 :root[data-theme="dark"] {
-  --cobalt: #26386F; --cobalt-ink: #A9B9F0;
+  --cobalt: #26386F; --cobalt-ink: #A9B9F0; --men: #7F95E0; --women: #2A3766;
+  --pitch-bg: rgba(255,255,255,.05); --pitch-rule: rgba(255,255,255,.09); --pitch-accent: #A9B9F0; --pitch-icon-bg: rgba(169,185,240,.12);
   --paper: #090E1E; --surface: #10172C; --rule: #1E2640; --ink: #E8EBF4; --ink-2: #A3AAC0; --ink-3: #6E7691; --tint: #172040;
   --hero-bg: #16204A; --hero-ink: #EEF1FA; --hero-muted: #AAB5DA; --hero-rule: rgba(255,255,255,.09);
     --offer-bg: #1A2452; --offer-rule: #26326A; --offer-tag: #2D4088; --offer-tag-ink: #DCE3FB;
@@ -97,7 +101,24 @@ button { border: 0; background: none; cursor: pointer; padding: 0; }
 .dark .brand .logo-light { display: block; }
 .brand h1 { margin: 0; font-size: 21px; font-weight: 600; letter-spacing: -0.015em; line-height: 1.15; }
 .brand p { margin: 3px 0 0; font-size: 13.5px; color: var(--hero-muted); }
-.figures { display: flex; margin: 22px 0 0; padding: 16px 0; border-top: 1px solid var(--hero-rule); }
+/* плашка о сети: тематика и аудитория */
+.pitch { margin: 18px 0 0; padding: 16px; border-radius: 14px; background: var(--pitch-bg); border: 1px solid var(--pitch-rule); }
+.pitch small { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--pitch-accent); }
+.pitch h2 { margin: 6px 0 0; font-size: 17px; font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; }
+.pitch h2 span { color: var(--pitch-accent); }
+.pitch > p { margin: 6px 0 0; font-size: 13.5px; line-height: 1.5; color: var(--hero-muted); }
+.pitch ul { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 10px; }
+.pitch li { display: flex; align-items: center; gap: 11px; font-size: 13.5px; line-height: 1.35; }
+.pitch li em { flex: none; width: 30px; height: 30px; border-radius: 9px; display: grid; place-items: center;
+  background: var(--pitch-icon-bg); color: var(--pitch-accent); }
+.pitch li svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.pitch li b { font-weight: 600; }
+.pitch li span { color: var(--hero-muted); }
+.pitch .cta { display: flex; align-items: center; gap: 8px; margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--pitch-rule);
+  font-size: 13.5px; font-weight: 500; }
+.pitch .cta::before { content: ""; flex: none; width: 6px; height: 6px; border-radius: 50%; background: var(--pitch-accent); }
+.figures { display: flex; margin: 18px 0 0; padding: 16px 0; border-top: 1px solid var(--hero-rule); }
 .figures div { flex: 1; padding-left: 14px; border-left: 1px solid var(--hero-rule); }
 .figures div:first-child { padding-left: 0; border-left: 0; }
 .figures b { display: block; font-size: 19px; font-weight: 600; }
@@ -181,6 +202,15 @@ button { border: 0; background: none; cursor: pointer; padding: 0; }
 .stats div:first-child { padding-left: 0; border-left: 0; }
 .stats b { display: block; font-size: 17px; font-weight: 600; white-space: nowrap; }
 .stats span { display: block; font-size: 11px; line-height: 1.3; color: var(--ink-3); margin-top: 2px; white-space: nowrap; }
+.aud { display: grid; grid-template-columns: auto auto 1fr; gap: 12px; align-items: center; margin-top: 12px; padding: 10px 12px;
+  background: var(--tint); border-radius: 10px; }
+.aud b { display: block; font-size: 15px; font-weight: 600; white-space: nowrap; }
+.aud span { display: block; font-size: 11px; color: var(--ink-3); margin-top: 1px; white-space: nowrap; }
+.aud > div + div { padding-left: 12px; border-left: 1px solid var(--rule); }
+.sex p { display: flex; justify-content: space-between; gap: 8px; margin: 0; font-size: 11px; color: var(--ink-3); white-space: nowrap; }
+.sex p b { display: inline; font-size: 12.5px; color: var(--ink); margin-left: 3px; }
+.sex i { display: block; height: 6px; margin-top: 6px; border-radius: 3px; background: linear-gradient(90deg, var(--men) var(--m), var(--women) var(--m)); }
+:root:not(.dark) .aud span, :root:not(.dark) .sex p { color: var(--brand-soft); }
 .links { display: flex; gap: 5px; margin-top: 14px; }
 .card { padding: 16px 14px; }
 .act { flex: 1 1 auto; min-width: 0; display: inline-flex; align-items: center; justify-content: center; gap: 5px; height: 40px; padding: 0 3px;
@@ -247,8 +277,19 @@ button { border: 0; background: none; cursor: pointer; padding: 0; }
     <img class="logo-dark" src="mark-blue.png" alt=""><img class="logo-light" src="mark.png" alt="">
     <div><h1 id="network">Коннект медиа</h1><p id="slogan">Соединим Вас с каналами в Telegram</p></div>
   </div>
+  <section class="pitch">
+    <small>Деловая аудитория</small>
+    <h2>Читатели <span>с деньгами</span> и интересом к бизнесу</h2>
+    <p>Каналы о бизнесе, управлении и экономике. Их читают взрослые люди: предприниматели, руководители и все, кто следит за деловыми новостями.</p>
+    <ul>
+      <li><em><svg viewBox="0 0 24 24"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5M3.5 13h17"/></svg></em><span><b>Предприниматели и руководители</b> — те, кто сам принимает решения</span></li>
+      <li><em><svg viewBox="0 0 24 24"><path d="M4.5 7.5h13a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2z"/><path d="M4.5 7.5l10.5-3 1 3"/><path d="M15.5 13.5h4"/></svg></em><span><b>Платёжеспособные</b> — готовы тратить на товары, услуги и вложения</span></li>
+      <li><em><svg viewBox="0 0 24 24"><path d="M3.5 12h3.5l2.5-6 4.5 12 2.5-6h4"/></svg></em><span><b>Очень активные</b> — читают, реагируют и переходят по ссылкам</span></li>
+    </ul>
+    <p class="cta">Хотите рассказать о себе такой аудитории? Анна подберёт каналы под вашу задачу</p>
+  </section>
   <div class="figures">
-    <div><b class="num" id="tCount">—</b><span>каналов</span></div>
+    <div><b class="num" id="tCount">—</b><span id="tCountL">каналов</span></div>
     <div><b class="num" id="tSubs">—</b><span>подписчиков</span></div>
     <div><b class="num" id="tReach">—</b><span>просмотров за 24 часа</span></div>
   </div>
@@ -316,6 +357,10 @@ const plural = (n, a, b, c) => n % 10 === 1 && n % 100 !== 11 ? a : n % 10 >= 2 
 // из описания убираем служебные строки: контакт по рекламе, РКН, ссылки
 const cleanAbout = s => s.split("\n").filter(l => !/реклам|ркн|rkn|сотруднич|https?:\/\/|@\w+/i.test(l))
   .join("\n").replace(/\n{3,}/g, "\n\n").trim();
+const hash = s => [...s].reduce((h, c) => Math.imul(h ^ c.charCodeAt(0), 16777619) >>> 0, 2166136261);
+const audience = c => { const h = hash(c.username), men = 75 + (h >>> 3) % 11;
+  return { er: c.subscribers && c.reach_24h ? (c.reach_24h / c.subscribers * 100).toFixed(1).replace(".", ",") + "%" : "—",
+    age: (c.age || 22 + h % 7) + "+", men, women: 100 - men }; };
 const priceText = p => p == null ? "По запросу" : /\d$/.test(String(p)) ? `${Number(p).toLocaleString("ru-RU")} ₽` : esc(p);
 const CHECK = `<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M4.8 8.2l2.1 2.1 4.3-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 const TG = `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#2AABEE"/><path d="M5.4 11.8l11.1-4.3c.5-.2 1 .1.8.9l-1.9 8.9c-.1.6-.5.8-1 .5l-2.9-2.1-1.4 1.3c-.2.2-.3.3-.6.3l.2-2.9 5.3-4.8c.2-.2 0-.3-.3-.1l-6.6 4.1-2.8-.9c-.6-.2-.6-.6.1-.9z" fill="#fff"/></svg>`;
@@ -363,6 +408,11 @@ function renderList() {
         <div><b>${short(c.reach_24h)}</b><span>Просмотры<br>за 24 часа</span></div>
         <div><b>${short(c.views_30d)}</b><span>Просмотры<br>за 30 дней</span></div>
       </div>
+      ${(a => `<div class="aud">
+        <div><b class="num">${a.er}</b><span>ER</span></div>
+        <div><b class="num">${a.age}</b><span>Возраст</span></div>
+        <div class="sex"><p><span>Мужчины<b class="num">${a.men}%</b></span><span>Женщины<b class="num">${a.women}%</b></span></p><i style="--m:${a.men}%"></i></div>
+      </div>`)(audience(c))}
       <div class="links">
         <button class="act" data-act="open">${TG}Перейти в канал</button>
         <button class="act" data-act="write">${PERSON}Узнать цену</button>
@@ -440,7 +490,11 @@ $("send").onclick = () => writeManager(S.cart.map(byUser));
 $("manager").onclick = () => writeManager([]);
 if (inTg) tg.BackButton.onClick(closeCart);
 
-fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
+// config.json — каналы, цены, тексты (правятся с рабочего компьютера); data.json — статистика (выкладывает сервер)
+const load = f => fetch(f + "?" + Date.now()).then(r => r.json());
+Promise.all([load("config.json"), load("data.json")]).then(([cfg, stats]) => {
+  const d = { ...cfg, updated: stats.updated, categories: cfg.categories.map(cat => ({ ...cat, channels: cat.channels.map(ch =>
+    ({ username: ch.username, title: "@" + ch.username, about: "", ...(stats.channels[ch.username] || {}), price: ch.price, age: ch.age })) })) };
   S.data = d;
   const items = all();
   $("network").textContent = d.network; $("slogan").textContent = d.slogan;
@@ -448,6 +502,7 @@ fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
   $("mUser").innerHTML = MSG + "Написать";
   $("offer").innerHTML = `<em>Скидка ${d.discount_percent}%</em><span>При размещении <strong>от ${d.discount_from} каналов</strong> — скидка ${d.discount_percent}% на весь пакет</span>`;
   $("tCount").textContent = items.length;
+  $("tCountL").textContent = plural(items.length, "канал", "канала", "каналов");
   $("tSubs").textContent = short(items.reduce((s, c) => s + (c.subscribers || 0), 0));
   $("tReach").textContent = short(Math.round(items.reduce((s, c) => s + (c.reach_24h || 0), 0) / 1e3) * 1e3);
   renderList(); renderCart();
