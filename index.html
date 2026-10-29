@@ -102,22 +102,18 @@ button { border: 0; background: none; cursor: pointer; padding: 0; }
 .brand h1 { margin: 0; font-size: 21px; font-weight: 600; letter-spacing: -0.015em; line-height: 1.15; }
 .brand p { margin: 3px 0 0; font-size: 13.5px; color: var(--hero-muted); }
 /* плашка о сети: тематика и аудитория */
-.pitch { margin: 18px 0 0; padding: 16px; border-radius: 14px; background: var(--pitch-bg); border: 1px solid var(--pitch-rule); }
-.pitch small { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
-  color: var(--pitch-accent); }
-.pitch h2 { margin: 6px 0 0; font-size: 17px; font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; }
+.pitch { margin: 16px 0 0; padding: 14px 16px; border-radius: 14px; background: var(--pitch-bg); border: 1px solid var(--pitch-rule); }
+.pitch h2 { margin: 0; font-size: 17px; font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; }
 .pitch h2 span { color: var(--pitch-accent); }
 .pitch > p { margin: 6px 0 0; font-size: 13.5px; line-height: 1.5; color: var(--hero-muted); }
-.pitch ul { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 10px; }
+.pitch .who { margin: 12px 0 0; font-size: 13px; font-weight: 600; color: var(--pitch-accent); }
+.pitch ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
 .pitch li { display: flex; align-items: center; gap: 11px; font-size: 13.5px; line-height: 1.35; }
 .pitch li em { flex: none; width: 30px; height: 30px; border-radius: 9px; display: grid; place-items: center;
   background: var(--pitch-icon-bg); color: var(--pitch-accent); }
 .pitch li svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .pitch li b { font-weight: 600; }
 .pitch li span { color: var(--hero-muted); }
-.pitch .cta { display: flex; align-items: center; gap: 8px; margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--pitch-rule);
-  font-size: 13.5px; font-weight: 500; }
-.pitch .cta::before { content: ""; flex: none; width: 6px; height: 6px; border-radius: 50%; background: var(--pitch-accent); }
 .figures { display: flex; margin: 18px 0 0; padding: 16px 0; border-top: 1px solid var(--hero-rule); }
 .figures div { flex: 1; padding-left: 14px; border-left: 1px solid var(--hero-rule); }
 .figures div:first-child { padding-left: 0; border-left: 0; }
@@ -278,15 +274,14 @@ button { border: 0; background: none; cursor: pointer; padding: 0; }
     <div><h1 id="network">Коннект медиа</h1><p id="slogan">Соединим Вас с каналами в Telegram</p></div>
   </div>
   <section class="pitch">
-    <small>Деловая аудитория</small>
     <h2>Читатели <span>с деньгами</span> и интересом к бизнесу</h2>
-    <p>Каналы о бизнесе, управлении и экономике. Их читают взрослые люди: предприниматели, руководители и все, кто следит за деловыми новостями.</p>
+    <p>Лонгриды, разборы и практические советы о бизнесе, деньгах и управлении. Их читают взрослые люди, которые применяют это в своём деле.</p>
+    <p class="who">Кто наши читатели:</p>
     <ul>
-      <li><em><svg viewBox="0 0 24 24"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5M3.5 13h17"/></svg></em><span><b>Предприниматели и руководители</b> — те, кто сам принимает решения</span></li>
-      <li><em><svg viewBox="0 0 24 24"><path d="M4.5 7.5h13a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2z"/><path d="M4.5 7.5l10.5-3 1 3"/><path d="M15.5 13.5h4"/></svg></em><span><b>Платёжеспособные</b> — готовы тратить на товары, услуги и вложения</span></li>
-      <li><em><svg viewBox="0 0 24 24"><path d="M3.5 12h3.5l2.5-6 4.5 12 2.5-6h4"/></svg></em><span><b>Очень активные</b> — читают, реагируют и переходят по ссылкам</span></li>
+      <li><em><svg viewBox="0 0 24 24"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5M3.5 13h17"/></svg></em><span><b>Предприниматели и руководители</b> — сами принимают решения</span></li>
+      <li><em><svg viewBox="0 0 24 24"><path d="M4.5 7.5h13a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2z"/><path d="M4.5 7.5l10.5-3 1 3"/><path d="M15.5 13.5h4"/></svg></em><span><b>Платёжеспособные</b> — тратят на товары, услуги и вложения</span></li>
+      <li><em><svg viewBox="0 0 24 24"><path d="M3.5 12h3.5l2.5-6 4.5 12 2.5-6h4"/></svg></em><span><b>Очень активные</b> — читают, реагируют, переходят по ссылкам</span></li>
     </ul>
-    <p class="cta">Хотите рассказать о себе такой аудитории? Анна подберёт каналы под вашу задачу</p>
   </section>
   <div class="figures">
     <div><b class="num" id="tCount">—</b><span id="tCountL">каналов</span></div>
